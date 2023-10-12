@@ -1,0 +1,19 @@
+@charset "UTF-8";
+.btn-styled {
+	position: absolute;
+    font-size: 14px;
+    margin: 8px;
+    padding: 0 10px;
+    line-height: 2;
+    top: 50px;
+    
+    
+}
+.feedback {
+	display: none;
+	color: red;
+}
+
+.show {
+	display: block;
+}
