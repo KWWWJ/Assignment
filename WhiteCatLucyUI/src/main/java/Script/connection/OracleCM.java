@@ -1,4 +1,4 @@
-package whiteCatLucy.connection;
+package Script.connection;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

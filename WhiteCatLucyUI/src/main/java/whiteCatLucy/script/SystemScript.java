@@ -71,7 +71,7 @@ public class SystemScript{
 //		count = 0;
 //		check = 0;
 	}
-	public void tutoral2() {
+	public void tutorial2() {
 		List<String> script = new ArrayList<>();
 		script.add("[다음은 플레이어의 행동에 관한 튜토리얼입니다.]");
 		script.add("[한 번 선택지를 고르고 나면 다음 행동을 결정할 수 있는 '메뉴'로 들어가게 됩니다.]");
@@ -87,7 +87,7 @@ public class SystemScript{
 		}
 		count = 0;
 	}
-	public void tutoral3() {
+	public void tutorial3() {
 		List<String> script = new ArrayList<>();
 		script.add("[이동한 맵에서는 여러가지 이벤트들이 일어나게됩니다.]");
 		script.add("[이벤트에서 선택한 선택지에 따라 다음 나올 이벤트의 내용이 달라질 수 있습니다.]");
@@ -102,7 +102,7 @@ public class SystemScript{
 		count = 0;
 	
 	}
-	public void tutoral4() {
+	public void tutorial4() {
 		List<String> script = new ArrayList<>();
 		script.add("[이벤트가 일어나면 일정 확률로 전투가 일어나게 됩니다.]");
 		script.add("[전투로 휙득하는 아이템은 일반적인 아이템과 같은 효과를 발휘합니다.]");

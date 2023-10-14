@@ -1,19 +1,20 @@
-package whiteCatLucy.script;
+package Script.script;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import javax.sql.DataSource;
-import whiteCatLucy.connection.ConnectionMaker;
+
+import Script.connection.ConnectionMaker;
 
 public class ScriptDAO {
 	// db와 통신하여 user의 데이터를 관리한다.
-	private ConnectionMaker maker;
+//	private ConnectionMaker maker;
 	private DataSource dataSource;
 	
-	public ScriptDAO(ConnectionMaker maker) {
-		this.maker = maker;
-	}
+//	public ScriptDAO(ConnectionMaker maker) {
+//		this.maker = maker;
+//	}
 	public ScriptDAO(DataSource dataSource) {
 		this.dataSource = dataSource;
 	}

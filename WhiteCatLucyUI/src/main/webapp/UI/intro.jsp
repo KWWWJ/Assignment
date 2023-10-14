@@ -2,7 +2,6 @@
 	isELIgnored="false" pageEncoding="UTF-8"%>
 <%
 	String arr = "\"루시는 하얀고양이다\", \"루시는 소파에 엎드려있다\"";
-	String arr1 = "루시는 하얀고양이다";
 %>
 <!DOCTYPE html>
 <html>
@@ -19,7 +18,7 @@
 <body>
 	<div class="display">
 		<div class="scriptBox">
-			<h3 class="now" id="script">하이염</h3>
+			<h3 class="now" id="script">스크립트</h3>
 			<div id="addButton" class="butten-hover">
 				<img class="image" alt="발바닥이미지" src="image/whitefoot.png">
 			</div>

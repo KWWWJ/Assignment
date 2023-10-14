@@ -1,4 +1,4 @@
-package whiteCatLucy.script;
+package Script.script;
 
 public interface ScriptInterface {
 

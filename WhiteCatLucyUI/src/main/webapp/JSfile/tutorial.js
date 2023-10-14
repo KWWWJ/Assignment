@@ -1,4 +1,4 @@
-var script = ["루시는 하얀고양이다.", "루시는 소파에 엎드려있다."]
+
 var count = 0;
 
 const addBtn = document.getElementById("addButton");
@@ -11,7 +11,7 @@ addBtn.onclick = function(){
 	if(count < script.length){
 		ScriptBox.innerHTML = script[count++];
 	}else{
-		location.href="/WhiteCatLucyUI/UI/tutorial";
+		location.href="./PlayerActionScript.jsp";
 	}
 }
 

@@ -40,9 +40,9 @@ public class Main {
 		//다음 스크립트가 주르륵 떠 눈을 어지럽게 하지 않게하기 위해 텀을 주는 스캐너다.
 		script.intro();
 		//시스템 스크립트 중 튜토리얼을 담당하는 메서드를 불러온다.
-		script.tutoral2();
-		script.tutoral3();
-		script.tutoral4();
+		script.tutorial2();
+		script.tutorial3();
+		script.tutorial4();
 		
 		String next1 = scan.next();
 		//텀을 주는 스케너다.
