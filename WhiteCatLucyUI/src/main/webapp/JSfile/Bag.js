@@ -1,4 +1,4 @@
-var script =["여기는 튜토리얼", "텍스트 확인"]
+
 var count = 0;
 
 const addBtn = document.getElementById("addButton");
@@ -11,7 +11,7 @@ addBtn.onclick = function(){
 	if(count < script.length){
 		ScriptBox.innerHTML = script[count++];
 	}else{
-		location.href="./PlayerActionScript";
+		location.href="./playerAction.jsp";
 	}
 }
 

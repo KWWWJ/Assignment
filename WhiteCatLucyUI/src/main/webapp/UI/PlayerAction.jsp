@@ -16,5 +16,6 @@
 		<button type="button" class="button-rest button-effect" onclick="location.href='./Rest.jsp'">휴식하기</button>
 		<button type="button" class="button-rest button-effect" onclick="location.href='./Status.jsp'">상태확인하기</button>
 	</div>
+	<script type="text/javascript" src="./JSfile/playerAction.js"></script>
 </body>
 </html>

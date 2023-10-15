@@ -14,7 +14,7 @@
 		<div class="script-bag">아이템 목록</div>
 		<button type="button" class="button-script button-effect" onclick="location.href='./PlayerAction.jsp' ">가방닫기</button>
 	</div>
-	
+	<script type="text/javascript" src="./JSfile/bag.js"></script>
 
 </body>
 </html>

@@ -15,19 +15,17 @@ import whiteCatLucy.script.SystemScript;
 /**
  * Servlet implementation class Tutorial
  */
-@WebServlet("/tutorial")
-public class Tutorial extends HttpServlet {
-	
-       
-    /**
+@WebServlet("/battleResult")
+public class BattleResult extends HttpServlet {
+	/**
 	 * 
 	 */
-	private static final long serialVersionUID = -5814557614294188550L;
+	private static final long serialVersionUID = -2253042112835108117L;
 
 	/**
      * @see HttpServlet#HttpServlet()
      */
-    public Tutorial() {
+    public BattleResult() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -45,7 +43,7 @@ public class Tutorial extends HttpServlet {
 		
 		request.setAttribute("box", nowScript);
 		
-		RequestDispatcher dispatcher = request.getRequestDispatcher("/UI/tutorial.jsp");
+		RequestDispatcher dispatcher = request.getRequestDispatcher("/UI/BattleResult.jsp");
 
         dispatcher.forward(request, response);
 	}

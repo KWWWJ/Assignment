@@ -14,5 +14,6 @@
 		<button type="button" class="button-script button-effect" onclick="스크립트 넘기기">next</button>
 		<button type="button" class="button-temporary" onclick="location.href='./title.jsp' ">임시 이동버튼</button>
 	</div>
+	<script type="text/javascript" src="./JSfile/ending.js"></script>
 </body>
 </html>

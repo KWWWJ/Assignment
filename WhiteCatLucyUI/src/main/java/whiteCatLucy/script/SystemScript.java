@@ -77,15 +77,15 @@ public class SystemScript{
 		script.add("[한 번 선택지를 고르고 나면 다음 행동을 결정할 수 있는 '메뉴'로 들어가게 됩니다.]");
 		script.add("[플레이어는 맵 이동, 배낭열기, 휴식하기의 행동을 선택할 수 있습니다.]\n");
 		script.add("[특히나 휴식하기의 경우 이벤트 이외에 플레이어의 성향을 변경할 수 있는 유일한 행동입니다.]");
-		for (int i = 0; i < script.size(); i++) {
-			click = scan.nextInt();
-			if(click == 1) {
-				box = script.get(count);
-				count++;
-				System.out.println(box);
-			}
-		}
-		count = 0;
+//		for (int i = 0; i < script.size(); i++) {
+//			click = scan.nextInt();
+//			if(click == 1) {
+//				box = script.get(count);
+//				count++;
+//				System.out.println(box);
+//			}
+//		}
+//		count = 0;
 	}
 	public void tutorial3() {
 		List<String> script = new ArrayList<>();

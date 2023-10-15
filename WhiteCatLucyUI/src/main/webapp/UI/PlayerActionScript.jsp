@@ -15,6 +15,6 @@
 		<button type="button" class="button-temporary" onclick="location.href='./PlayerAction.jsp' ">임시 이동버튼</button>
 	</div>
 	
-
+<script type="text/javascript" src="./JSfile/playerActionScript.js"></script>
 </body>
 </html>

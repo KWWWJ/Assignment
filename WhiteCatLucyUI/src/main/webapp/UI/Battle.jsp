@@ -15,5 +15,6 @@
 		<button type="button" class="button-bag button-effect" onclick="location.href='./BattleBag.jsp'">아이템 사용하기</button>
 		<button type="button" class="button-rest button-effect" onclick="location.href='./BattleScript.jsp'">스킬</button>
 	</div>
+	<script type="text/javascript" src="./JSfile/battle.js"></script>
 </body>
 </html>

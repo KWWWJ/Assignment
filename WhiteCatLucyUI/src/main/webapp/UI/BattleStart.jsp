@@ -14,5 +14,6 @@
 		<button type="button" class="button-script button-effect" onclick="location.href='./Battle.jsp' ">next</button>
 		<button type="button" class="button-temporary" onclick="location.href='./Battle.jsp' ">임시이동버튼</button>
 	</div>
+	<script type="text/javascript" src="./JSfile/battleStart.js"></script>
 </body>
 </html>

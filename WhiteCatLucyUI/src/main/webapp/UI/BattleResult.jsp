@@ -13,5 +13,6 @@
 		<div class="script">전투 결과 표기</div>
 		<button type="button" class="button-script button-effect" onclick="location.href='./PlayerActionScript.jsp'">next</button>
 	</div>
+	<script type="text/javascript" src="./JSfile/battleResult.js"></script>
 </body>
 </html>

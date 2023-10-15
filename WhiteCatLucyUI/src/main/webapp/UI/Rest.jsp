@@ -13,5 +13,6 @@
 		<div class="script">성향 변화 메세지</div>
 		<button type="button" class="button-script button-effect" onclick="location.href='./PlayerAction.jsp' ">next</button>
 	</div>
+	<script type="text/javascript" src="./JSfile/rest.js"></script>
 </body>
 </html>

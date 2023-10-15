@@ -1,5 +1,6 @@
-var script =["여기는 튜토리얼", "텍스트 확인"]
+
 var count = 0;
+var where = 0;
 
 const addBtn = document.getElementById("addButton");
 const ScriptBox = document.getElementById("script");
@@ -11,7 +12,14 @@ addBtn.onclick = function(){
 	if(count < script.length){
 		ScriptBox.innerHTML = script[count++];
 	}else{
-		location.href="./PlayerActionScript";
+		
+		if(where = 1){location.href="./alley"}
+		if(where = 2){location.href="./darkForest"}
+		if(where = 3){location.href="./home"}
+		if(where = 4){location.href="./jewelCave"}
+		if(where = 5){location.href="./cloud"}
+		if(where = 6){location.href="./road"}
+		if(where = 7){location.href="./Event"}
 	}
 }
 

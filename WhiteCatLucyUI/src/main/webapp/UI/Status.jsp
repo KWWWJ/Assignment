@@ -13,5 +13,6 @@
 		<div class="script-state">능력치 정렬</div>
 		<button type="button" class="button-script button-effect" onclick="location.href='./PlayerAction.jsp' ">next</button>
 	</div>
+	<script type="text/javascript" src="./JSfile/status.js"></script>
 </body>
 </html>

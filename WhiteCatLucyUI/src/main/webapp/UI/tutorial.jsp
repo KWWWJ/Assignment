@@ -6,8 +6,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link href="../style/main.css" rel="stylesheet" type="text/css">
-<link href="../style/button.css" rel="stylesheet" type="text/css">
+<link href="style/main.css" rel="stylesheet" type="text/css">
+<link href="style/button.css" rel="stylesheet" type="text/css">
 <meta charset="UTF-8">
 <title>tutorial</title>
 <script type="text/javascript">
