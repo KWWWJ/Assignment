@@ -15,7 +15,7 @@ import whiteCatLucy.script.SystemScript;
 /**
  * Servlet implementation class Tutorial
  */
-@WebServlet("/alleyBattleScript2")
+@WebServlet("/darkForestBattleScript2")
 public class BattleScript2 extends HttpServlet {
 	/**
      * @see HttpServlet#HttpServlet()

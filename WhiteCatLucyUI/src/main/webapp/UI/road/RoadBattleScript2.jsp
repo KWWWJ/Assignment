@@ -18,6 +18,6 @@
 			</div>
 		</div>
 	</div>
-	<script type="text/javascript" src="./JSfile/road/roadBattleScript.js"></script>
+	<script type="text/javascript" src="./JSfile/road/roadBattleScript2.js"></script>
 </body>
 </html>

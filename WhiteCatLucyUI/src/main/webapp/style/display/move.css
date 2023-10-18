@@ -2,7 +2,7 @@
 
 .display{
 	
-	background-image: url(../image/battle/tutorialMonster/battleStanding-basic.png);
+	background-image: url(../../image/battle/tutorialMonster/battleStanding-basic.png);
 	width: 1000px;
 	height: 700px;
 	margin: 0 auto;
@@ -11,3 +11,96 @@
 	align-items: flex-end;
 	justify-content: center;
 }
+
+
+.button-alley{
+	position: absolute;
+    top:70px;
+    left: 50px;
+    background-color:rgb(192, 192, 192);
+    color: #fff;
+    border:none;
+    border-radius:10px;
+    padding: 5px;
+    min-height: 30px;
+    min-width: 170px;
+}
+
+.button-darkforest{
+	position: absolute;
+    top:70px;
+    left: 255px;
+    background-color:rgb(192, 192, 192);
+    color: #fff;
+    border:none;
+    border-radius:10px;
+    padding: 5px;
+    min-height: 30px;
+    min-width: 170px;
+}
+
+.button-home{
+	position: absolute;
+    top:70px;
+    left: 460px;
+    background-color:rgb(192, 192, 192);
+    color: #fff;
+    border:none;
+    border-radius:10px;
+    padding: 5px;
+    min-height: 30px;
+    min-width: 170px;
+}
+
+.button-jewelcave{
+	position: absolute;
+    top:120px;
+    left: 50px;
+    background-color:rgb(192, 192, 192);
+    color: #fff;
+    border:none;
+    border-radius:10px;
+    padding: 5px;
+    min-height: 30px;
+    min-width: 170px;
+}
+
+.button-cloud{
+	position: absolute;
+    top:120px;
+    left: 255px;
+    background-color:rgb(192, 192, 192);
+    color: #fff;
+    border:none;
+    border-radius:10px;
+    padding: 5px;
+    min-height: 30px;
+    min-width: 170px;
+}
+
+.button-endroad{
+	position: absolute;
+    top:120px;
+    left: 460px;
+    background-color:rgb(192, 192, 192);
+    color: #fff;
+    border:none;
+    border-radius:10px;
+    padding: 5px;
+    min-height: 30px;
+    min-width: 170px;
+}
+
+.button-back {
+	position: absolute;
+    top:160px;
+    left: 700px;
+    background-color:rgb(192, 192, 192);
+    color: #fff;
+    border:none;
+    border-radius:10px;
+    padding: 5px;
+    min-height: 30px;
+    min-width: 70px;
+}
+

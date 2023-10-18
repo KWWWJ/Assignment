@@ -16,6 +16,7 @@
 				<button type="button" class="button-bag button-effect" onclick="location.href='./darkForestBattleBag'">아이템 사용하기</button>
 				<button type="button" class="button-rest button-effect" onclick="location.href='./darkForestBattleScript1'">스킬</button>
 		</div>
+		<button type="button" onclick="location.href='./darkForestBattleResult'">전투 넘김</button>
 	</div>
 </body>
 </html>

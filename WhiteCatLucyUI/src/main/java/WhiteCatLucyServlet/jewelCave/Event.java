@@ -15,7 +15,7 @@ import whiteCatLucy.script.SystemScript;
 /**
  * Servlet implementation class Tutorial
  */
-@WebServlet("/jewlCaveEvent")
+@WebServlet("/jewelCaveEvent")
 public class Event extends HttpServlet {
 	/**
 	 * 
@@ -46,7 +46,7 @@ public class Event extends HttpServlet {
 		String where = (String) request.getAttribute("where");
 		System.out.println(where);
 		
-		RequestDispatcher dispatcher = request.getRequestDispatcher("/UI/jewlCave/JewlCaveEvent.jsp");
+		RequestDispatcher dispatcher = request.getRequestDispatcher("/UI/jewelCave/JewelCaveEvent.jsp");
 
         dispatcher.forward(request, response);
 	}

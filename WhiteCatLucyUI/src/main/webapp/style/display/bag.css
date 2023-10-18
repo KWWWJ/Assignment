@@ -2,7 +2,7 @@
 
 .display{
 	position: relative;
-	background-image: url(../image/battle/tutorialMonster/battleStanding-basic.png);
+	background-image: url(../../image/battle/tutorialMonster/battleStanding-basic.png);
 	width: 1000px;
 	height: 700px;
 	margin: 0 auto;

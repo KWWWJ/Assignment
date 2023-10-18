@@ -19,7 +19,7 @@
 			<button type="button" class="button-jewelcave button-effect" onclick="location.href='./jewelCave'">보석동굴</button>
 			<button type="button" class="button-cloud button-effect" onclick="location.href='./cloud'">환상적인 구름</button>
 			<button type="button" class="button-endroad button-effect" onclick="location.href='./road'">끝의 길</button>
-			<button type="button" class="button-back button-effect" onclick="location.href='./PlayerAction' ">돌아가기</button>
+			<button type="button" class="button-back button-effect" onclick="location.href='./playerAction' ">돌아가기</button>
 		</div>
 	</div>
 </body>

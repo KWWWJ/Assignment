@@ -18,6 +18,6 @@
 			</div>
 		</div>
 	</div>
-	<script type="text/javascript" src="./JSfile/cloud/cloudBattleScript.js"></script>
+	<script type="text/javascript" src="./JSfile/cloud/cloudBattleScript2.js"></script>
 </body>
 </html>

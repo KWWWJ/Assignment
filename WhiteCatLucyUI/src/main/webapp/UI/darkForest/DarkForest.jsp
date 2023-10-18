@@ -3,8 +3,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link href="style/DarkForest/darkforest.css" rel="stylesheet" type="text/css">
-<link href="style/button.css" rel="stylesheet" type="text/css">
+<link href="style/darkForest/darkforest.css" rel="stylesheet" type="text/css">
+<link href="style/main.css" rel="stylesheet" type="text/css">
 <meta charset="UTF-8">
 <title>Event</title>
 </head>

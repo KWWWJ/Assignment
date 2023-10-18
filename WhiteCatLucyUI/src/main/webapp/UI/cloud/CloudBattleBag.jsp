@@ -19,7 +19,7 @@
 			</div>
 		</div>
 	</div>
-	<script type="text/javascript" src="./JSfile/cloud/vloudBattleBag.js"></script>
+	<script type="text/javascript" src="./JSfile/cloud/cloudBattleBag.js"></script>
 
 </body>
 </html>

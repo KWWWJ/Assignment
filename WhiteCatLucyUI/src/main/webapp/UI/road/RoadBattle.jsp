@@ -12,10 +12,11 @@
 <body>
 	<div class="display">
 		<div class="scriptBox"> <h3>어떻게 할까?</h3> 
-				<button type="button" class="button-move button-effect" onclick="location.href='./roadBattleScript1'">일반공격</button>
-				<button type="button" class="button-bag button-effect" onclick="location.href='./roadBattleBag'">아이템 사용하기</button>
-				<button type="button" class="button-rest button-effect" onclick="location.href='./roadBattleScript1'">스킬</button>
+				<button type="button" class="button-move button-effect" onclick="location.href='./darkForestBattleScript1'">일반공격</button>
+				<button type="button" class="button-bag button-effect" onclick="location.href='./darkForestBattleBag'">아이템 사용하기</button>
+				<button type="button" class="button-rest button-effect" onclick="location.href='./darkForestBattleScript1'">스킬</button>
 		</div>
+		<button type="button" onclick="location.href='./roadBattleResult'">전투 넘김</button>
 	</div>
 </body>
 </html>

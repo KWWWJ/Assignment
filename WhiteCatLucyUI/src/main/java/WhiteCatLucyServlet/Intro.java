@@ -43,11 +43,8 @@ public class Intro extends HttpServlet {
 		intro.intro();
 		
 		List<String> nowScript = intro.script;
-//		response.setContentType("text/html;charset=utf-8");
-
-//		response.getWriter().append(nowScript.get(0));
+		
 		request.setAttribute("box", nowScript);
-//		ServletContext app = this.getServletContext();
         RequestDispatcher dispatcher = request.getRequestDispatcher("/UI/intro.jsp");
 
         dispatcher.forward(request, response);

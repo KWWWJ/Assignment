@@ -1,10 +1,10 @@
-var script = []
+var script = ["구름 전투 결과"]
 var count = 0;
 
 const addBtn = document.getElementById("addButton");
 const ScriptBox = document.getElementById("script");
 
-ScriptBox.innerHTML =  script[count++];
+ScriptBox.innerHTML = script[count++];
 
 addBtn.onclick = function(){
 		console.log(count)

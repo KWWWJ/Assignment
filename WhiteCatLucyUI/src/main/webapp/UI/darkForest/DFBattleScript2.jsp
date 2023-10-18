@@ -18,6 +18,6 @@
 			</div>
 		</div>
 	</div>
-	<script type="text/javascript" src="./JSfile/darkForest/darkForestBattleScript.js"></script>
+	<script type="text/javascript" src="./JSfile/darkForest/darkForestBattleScript2.js"></script>
 </body>
 </html>

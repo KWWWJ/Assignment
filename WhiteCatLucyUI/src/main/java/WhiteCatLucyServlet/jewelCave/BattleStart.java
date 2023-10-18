@@ -15,7 +15,7 @@ import whiteCatLucy.script.SystemScript;
 /**
  * Servlet implementation class Tutorial
  */
-@WebServlet("/jewlCaveBattleStart")
+@WebServlet("/jewelCaveBattleStart")
 public class BattleStart extends HttpServlet {
 	/**
 	 * 
@@ -43,7 +43,7 @@ public class BattleStart extends HttpServlet {
 		
 		request.setAttribute("box", nowScript);
 		
-		RequestDispatcher dispatcher = request.getRequestDispatcher("/UI/jewlCave/JewlCaveBattleStart.jsp");
+		RequestDispatcher dispatcher = request.getRequestDispatcher("/UI/jewelCave/JewelCaveBattleStart.jsp");
 
         dispatcher.forward(request, response);
 	}

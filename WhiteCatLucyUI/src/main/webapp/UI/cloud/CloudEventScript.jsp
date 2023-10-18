@@ -18,5 +18,6 @@
 			</div>
 		</div>
 	</div>
+		<script type="text/javascript" src="./JSfile/cloud/cloudEventScript.js"></script>
 </body>
 </html>

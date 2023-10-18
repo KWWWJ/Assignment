@@ -18,6 +18,6 @@
 			</div>
 		</div>
 	</div>
-	<script type="text/javascript" src="./JSfile/alley/alleyBattleScript.js"></script>
+	<script type="text/javascript" src="./JSfile/alley/alleyBattleScript2.js"></script>
 </body>
 </html>

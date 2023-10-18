@@ -1,8 +1,6 @@
 @charset "UTF-8";
 
 .display{
-	/*position: relative;*/
-	
 	background-image: url(../../image/battle/darkforest/battle-df.png);
 	width: 1000px;
 	height: 700px;

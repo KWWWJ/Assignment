@@ -4,8 +4,8 @@
 <html>
 <head>
 <link href="style/main.css" rel="stylesheet" type="text/css">
-<link href="style/jewelCave/battleScript2.css" rel="stylesheet" type="text/css">
-<link href="style/button.css" rel="stylesheet" type="text/css">
+<link href="style/jewelCave/jewelCave.css" rel="stylesheet" type="text/css">
+
 <meta charset="UTF-8">
 <title>Event</title>
 </head>
@@ -18,6 +18,6 @@
 			</div>
 		</div>
 	</div>
-	<script type="text/javascript" src="./JSfile/jewelCave/jewelCaveBattleScript.js"></script>
+	<script type="text/javascript" src="./JSfile/jewelCave/jewelCave.js"></script>
 </body>
 </html>

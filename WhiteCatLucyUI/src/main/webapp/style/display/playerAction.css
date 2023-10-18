@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .display{
-	background-image: url(../image/battle/tutorialMonster/battleStanding-basic.png);
+	background-image: url(../../image/battle/tutorialMonster/battleStanding-basic.png);
 	width: 1000px;
 	height: 700px;
 	margin: 0 auto;
@@ -9,4 +9,43 @@
 	display: flex;
 	align-items: flex-end;
 	justify-content: center;
+}
+
+
+.button-move{
+	position: absolute;
+ 	top: 100px;
+    background-color:rgb(192, 192, 192);
+    color: #fff;
+    border:none;
+    border-radius:10px;
+    padding: 5px;
+    min-height: 30px;
+    min-width: 170px;
+}
+
+.button-bag{
+	position: absolute;
+    top:100px;
+    left: 240px;
+    background-color:rgb(192, 192, 192);
+    color: #fff;
+    border:none;
+    border-radius:10px;
+    padding: 5px;
+    min-height: 30px;
+    min-width: 170px;
+}
+
+.button-rest{
+	position: absolute;
+    top:100px;
+    left: 460px;
+    background-color:rgb(192, 192, 192);
+    color: #fff;
+    border:none;
+    border-radius:10px;
+    padding: 5px;
+    min-height: 30px;
+    min-width: 170px;
 }

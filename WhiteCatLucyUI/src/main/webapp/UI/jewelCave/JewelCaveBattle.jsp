@@ -16,6 +16,7 @@
 				<button type="button" class="button-bag button-effect" onclick="location.href='./jewelCaveBattleBag'">아이템 사용하기</button>
 				<button type="button" class="button-rest button-effect" onclick="location.href='./jewelCaveBattleScript1'">스킬</button>
 		</div>
+		<button type="button" onclick="location.href='./jewelCaveBattleResult'">전투 넘김</button>
 	</div>
 </body>
 </html>

@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .display{
-	background-image: url(../image/map/intro.png);
+	background-image: url(../../image/map/intro.png);
 	width: 1000px;
 	height: 700px;
 	margin: 0 auto;

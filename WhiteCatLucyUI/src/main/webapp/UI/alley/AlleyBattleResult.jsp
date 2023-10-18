@@ -11,7 +11,7 @@
 </head>
 <body>
 	<div class="display">
-		<div class="script">전투 결과 표기</div>
+		<div class="script"></div>
 			<div class="scriptBox">
 			<h3 class="now" id="script">스크립트</h3>
 			<div id="addButton" class="butten-hover">
@@ -19,6 +19,6 @@
 			</div>
 		</div>
 	</div>
-	<script type="text/javascript" src="./JSfile/alley/aleyBattleResult.js"></script>
+	<script type="text/javascript" src="./JSfile/alley/alleyBattleResult.js"></script>
 </body>
 </html>
