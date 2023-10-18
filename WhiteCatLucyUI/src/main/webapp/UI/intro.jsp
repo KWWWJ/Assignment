@@ -2,10 +2,10 @@
 	import="java.util.List"
 	import="java.util.ArrayList"
 	isELIgnored="false" pageEncoding="UTF-8"%>
-<%
-	ArrayList nowScript = (ArrayList<String>)request.getAttribute("box");;
+<%--
+	ArrayList nowScript = (ArrayList<>)request.getAttribute("box");;
 	String arr = "\"루시는 하얀고양이다\", \"루시는 소파에 엎드려있다\"";
-%>
+--%>
 <!DOCTYPE html>
 <html>
 <head>

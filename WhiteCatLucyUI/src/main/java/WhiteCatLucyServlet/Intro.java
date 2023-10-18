@@ -45,6 +45,7 @@ public class Intro extends HttpServlet {
 		List<String> nowScript = intro.script;
 		
 		request.setAttribute("box", nowScript);
+		
         RequestDispatcher dispatcher = request.getRequestDispatcher("/UI/intro.jsp");
 
         dispatcher.forward(request, response);
