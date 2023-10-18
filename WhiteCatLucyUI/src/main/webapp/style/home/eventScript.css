@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+.display{
+	background-image: url(../../image/battle/home/Standing-home.png);
+	width: 1000px;
+	height: 700px;
+	margin: 0 auto;
+	padding: 50px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+

@@ -91,15 +91,15 @@ public class SystemScript{
 		List<String> script = new ArrayList<>();
 		script.add("[이동한 맵에서는 여러가지 이벤트들이 일어나게됩니다.]");
 		script.add("[이벤트에서 선택한 선택지에 따라 다음 나올 이벤트의 내용이 달라질 수 있습니다.]");
-		for (int i = 0; i < script.size(); i++) {
-			click = scan.nextInt();
-			if(click == 1) {
-				box = script.get(count);
-				count++;
-				System.out.println(box);
-			}
-		}
-		count = 0;
+//		for (int i = 0; i < script.size(); i++) {
+//			click = scan.nextInt();
+//			if(click == 1) {
+//				box = script.get(count);
+//				count++;
+//				System.out.println(box);
+//			}
+//		}
+//		count = 0;
 	
 	}
 	public void tutorial4() {

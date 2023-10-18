@@ -14,18 +14,13 @@
 	width: 1000px;
 	height: 700px;
 	margin: 0 auto;
-	border: 1px solid rgb(0, 0, 0);
 }
 
 .butten-hover{
 	display: block;
-	position: absolute;
+	position: relative;
 	bottom: 0px;
 	left: 450px;
-	/*
-    border: 1px solid black;
-    border-radius: 100%;
-    */
     width: 100px;
     height: 100px;
     display: flex;

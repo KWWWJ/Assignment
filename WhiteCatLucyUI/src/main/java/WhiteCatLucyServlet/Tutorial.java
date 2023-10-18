@@ -17,7 +17,6 @@ import whiteCatLucy.script.SystemScript;
  */
 @WebServlet("/tutorial")
 public class Tutorial extends HttpServlet {
-	
        
     /**
 	 * 

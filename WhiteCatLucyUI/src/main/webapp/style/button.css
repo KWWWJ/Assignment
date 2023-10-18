@@ -12,6 +12,7 @@
     min-height: 30px;
     min-width: 70px;
 }
+
 .button-back {
 	position: absolute;
     top:650px;
@@ -24,6 +25,7 @@
     min-height: 30px;
     min-width: 70px;
 }
+
 .button-temporary {
 	position: absolute;
     top:750px;
@@ -36,10 +38,10 @@
     min-height: 30px;
     min-width: 70px;
 }
+
 .button-move{
 	position: absolute;
-    top:600px;
-    left: 200px;
+ 	top: 100px;
     background-color:rgb(192, 192, 192);
     color: #fff;
     border:none;
@@ -48,10 +50,11 @@
     min-height: 30px;
     min-width: 170px;
 }
+
 .button-bag{
 	position: absolute;
-    top:600px;
-    left: 415px;
+    top:100px;
+    left: 240px;
     background-color:rgb(192, 192, 192);
     color: #fff;
     border:none;
@@ -60,10 +63,11 @@
     min-height: 30px;
     min-width: 170px;
 }
+
 .button-rest{
 	position: absolute;
-    top:600px;
-    left: 630px;
+    top:100px;
+    left: 460px;
     background-color:rgb(192, 192, 192);
     color: #fff;
     border:none;
@@ -77,7 +81,8 @@
 .button-effect:hover {
       background-color:rgb(109, 109, 109);
       transition: 0.7s;
-  }
+}
+  
 .button-effect:focus {
     outline-color: transparent;
     outline-style:solid;
@@ -86,8 +91,8 @@
 
 .button-alley{
 	position: absolute;
-    top:550px;
-    left: 200px;
+    top:70px;
+    left: 50px;
     background-color:rgb(192, 192, 192);
     color: #fff;
     border:none;
@@ -96,10 +101,11 @@
     min-height: 30px;
     min-width: 170px;
 }
+
 .button-darkforest{
 	position: absolute;
-    top:550px;
-    left: 415px;
+    top:70px;
+    left: 255px;
     background-color:rgb(192, 192, 192);
     color: #fff;
     border:none;
@@ -108,10 +114,11 @@
     min-height: 30px;
     min-width: 170px;
 }
+
 .button-home{
 	position: absolute;
-    top:550px;
-    left: 630px;
+    top:70px;
+    left: 460px;
     background-color:rgb(192, 192, 192);
     color: #fff;
     border:none;
@@ -120,10 +127,11 @@
     min-height: 30px;
     min-width: 170px;
 }
+
 .button-jewelcave{
 	position: absolute;
-    top:600px;
-    left: 200px;
+    top:120px;
+    left: 50px;
     background-color:rgb(192, 192, 192);
     color: #fff;
     border:none;
@@ -132,10 +140,11 @@
     min-height: 30px;
     min-width: 170px;
 }
+
 .button-cloud{
 	position: absolute;
-    top:600px;
-    left: 415px;
+    top:120px;
+    left: 255px;
     background-color:rgb(192, 192, 192);
     color: #fff;
     border:none;
@@ -144,6 +153,20 @@
     min-height: 30px;
     min-width: 170px;
 }
+
+.button-endroad{
+	position: absolute;
+    top:120px;
+    left: 460px;
+    background-color:rgb(192, 192, 192);
+    color: #fff;
+    border:none;
+    border-radius:10px;
+    padding: 5px;
+    min-height: 30px;
+    min-width: 170px;
+}
+
 .button-endroad{
 	position: absolute;
     top:600px;

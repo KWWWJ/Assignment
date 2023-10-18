@@ -3,16 +3,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link href="../style/main.css" rel="stylesheet" type="text/css">
-<link href="../style/button.css" rel="stylesheet" type="text/css">
+<link href="style/main.css" rel="stylesheet" type="text/css">
+<link href="style/display/bag.css" rel="stylesheet" type="text/css">
+<link href="style/button.css" rel="stylesheet" type="text/css">
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
-	<div class="display">
-		<div class="script">아이템 설명이 여기에 표기된다.</div>
-		<div class="script-bag">아이템 목록</div>
-		<button type="button" class="button-script button-effect" onclick="location.href='./PlayerAction.jsp' ">가방닫기</button>
+<div class="display">
+	<div class="script-bag">아이템 목록</div>
+		<div class="scriptBox">
+			<h3 class="now" id="script">스크립트</h3>
+			<div id="addButton" class="butten-hover">
+				<img class="image" alt="발바닥이미지" src="image/whitefoot.png">
+			</div>
+		</div>
 	</div>
 	<script type="text/javascript" src="./JSfile/bag.js"></script>
 

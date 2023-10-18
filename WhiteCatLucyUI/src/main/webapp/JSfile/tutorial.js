@@ -11,7 +11,7 @@ addBtn.onclick = function(){
 	if(count < script.length){
 		ScriptBox.innerHTML = script[count++];
 	}else{
-		location.href="./PlayerActionScript";
+		location.href="./playerActionScript";
 	}
 }
 

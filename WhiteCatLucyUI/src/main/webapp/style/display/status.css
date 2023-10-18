@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.display{
+	position: relative;
+	background-image: url(../image/map/intro.png);
+	width: 1000px;
+	height: 700px;
+	margin: 0 auto;
+	padding: 50px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+.script-state {
+	position: relative;
+	background-color: rgb(231, 231, 231);
+	width: 700px;
+	height: 550px;
+	border-radius:5px;
+	border: 8px solid rgb(109, 109, 109);
+	margin: 0 auto;
+}

@@ -17,10 +17,11 @@ import whiteCatLucy.script.SystemScript;
  */
 @WebServlet("/bag")
 public class Bag extends HttpServlet {
+
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = -8907606479819075874L;
+	private static final long serialVersionUID = -6254860611218368792L;
 
 	/**
      * @see HttpServlet#HttpServlet()

@@ -17,6 +17,7 @@ import whiteCatLucy.script.SystemScript;
  */
 @WebServlet("/playerActionScript")
 public class PlayerActionScript extends HttpServlet {
+	
 	/**
 	 * 
 	 */
@@ -35,9 +36,10 @@ public class PlayerActionScript extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		
 		SystemScript tutorial = new SystemScript();
 		
-		tutorial.tutorial2();
+		tutorial.tutorial3();
 		
 		List<String> nowScript = tutorial.script;
 		

@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+.display{
+	background-image: url(../../image/battle/jewelcave/Standing-jc-monster.png);
+	width: 1000px;
+	height: 700px;
+	margin: 0 auto;
+	padding: 50px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
