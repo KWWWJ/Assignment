@@ -2,6 +2,7 @@ package WhiteCatLucyServlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.servlet.RequestDispatcher;
@@ -11,6 +12,8 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+import javax.websocket.Session;
 
 import whiteCatLucy.script.SystemScript;
 
@@ -39,14 +42,21 @@ public class Intro extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		SystemScript intro = new SystemScript();
+		HttpSession session = request.getSession();
 		
 		intro.intro();
 		
-		List<String> nowScript = intro.script;
+		ArrayList<String> script = (ArrayList<String>) intro.script;
 		
-		request.setAttribute("box", nowScript);
+		ArrayList<String> test = new ArrayList<>();
+		test.add("타입 캐스팅");
+		test.add("확인용");
 		
-        RequestDispatcher dispatcher = request.getRequestDispatcher("/UI/intro.jsp");
+		session.setAttribute("box", script);
+		session.setAttribute("test", "세션 타입 확인용");
+		session.setAttribute("list", test);
+		
+        RequestDispatcher dispatcher = request.getRequestDispatcher("/UI/Intro.jsp");
 
         dispatcher.forward(request, response);
 	}

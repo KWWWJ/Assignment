@@ -3,28 +3,33 @@
 	import="java.util.ArrayList"
 	isELIgnored="false" pageEncoding="UTF-8"%>
 <%--
-	ArrayList nowScript = (ArrayList<>)request.getAttribute("box");
-	String arr = "\"루시는 하얀고양이다\", \"루시는 소파에 엎드려있다\"";
+	ArrayList<String> intro = (ArrayList<String>)session.getAttribute("box");
 --%>
+<%
+	String test = (String)session.getAttribute("test");
+	ArrayList<String> nowTest = (ArrayList<String>)session.getAttribute("list");
+%>
 <!DOCTYPE html>
 <html>
 <head>
 <link href="style/main.css" rel="stylesheet" type="text/css">
 <link href="style/display/intro.css" rel="stylesheet" type="text/css">
-<link href="style/button.css" rel="stylesheet" type="text/css">
 <meta charset="UTF-8">
 <title>Intro</title>
 <script type="text/javascript" >
-	var script = [ ${arr} ]
-	//"루시는 하얀고양이다", "루시는 소파에 엎드려있다"
+	var script = [ ${nowTest} ]
 </script>
 </head>
 <body>
-	<div class="display">
-		<div class="scriptBox">
-			<h3 class="now" id="script">스크립트</h3>
-			<div id="addButton" class="butten-hover">
-				<img class="image" alt="발바닥이미지" src="image/whitefoot.png">
+	<div id="root">
+		<div class="display">
+			<div class="in-box">
+				<div class="script-box">
+					<h3 class="now" id="script">스크립트</h3>
+					<div id="addButton" class="butten-hover">
+						<img class="image" alt="발바닥이미지" src="image/whitefoot.png">
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

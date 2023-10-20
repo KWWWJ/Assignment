@@ -5,16 +5,19 @@
 <head>
 <link href="style/main.css" rel="stylesheet" type="text/css">
 <link href="style/display/status.css" rel="stylesheet" type="text/css">
-<link href="style/button.css" rel="stylesheet" type="text/css">
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Status</title>
 </head>
 <body>
-	<div class="display">
-		<div class="script-state">
-			<h2 class="now" id="script">스크립트</h2>
-			<div id="addButton" class="butten-hover">
-				<img class="image" alt="발바닥이미지" src="image/whitefoot.png">
+	<div id="root">
+		<div class="display">
+			<div class="in-box">
+				<div class="script-state">
+					<h2 class="now" id="script">스크립트</h2>
+				</div>
+				<div id="addButton" class="butten-hover">
+					<img class="image" alt="발바닥이미지" src="image/whitefoot.png">
+				</div>
 			</div>
 		</div>
 	</div>

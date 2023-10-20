@@ -3,18 +3,30 @@
 .display{
 	
 	background-image: url(../../image/battle/tutorialMonster/battleStanding-basic.png);
-	width: 1000px;
+	max-width: 1000px;
 	height: 700px;
 	margin: 0 auto;
-	padding: 50px;
+	padding: 50px 150px;
+	padding-top: 450px;
 	display: flex;
 	align-items: flex-end;
 	justify-content: center;
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 
+.button-effect:hover {
+      background-color:rgb(127, 127, 127);
+      transition: 0.7s;
+}
+  
+.button-effect:focus {
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px rgb(147, 0, 0);
+}
 
 .button-alley{
-	position: absolute;
     top:70px;
     left: 50px;
     background-color:rgb(192, 192, 192);
@@ -22,12 +34,12 @@
     border:none;
     border-radius:10px;
     padding: 5px;
-    min-height: 30px;
-    min-width: 170px;
+    min-height: 70px;
+    min-width: 204px;
+    margin: 0 10px 0 0;
 }
 
 .button-darkforest{
-	position: absolute;
     top:70px;
     left: 255px;
     background-color:rgb(192, 192, 192);
@@ -35,12 +47,12 @@
     border:none;
     border-radius:10px;
     padding: 5px;
-    min-height: 30px;
-    min-width: 170px;
+    min-height: 70px;
+    min-width: 204px;
+     margin: 0 10px 0 0;
 }
 
 .button-home{
-	position: absolute;
     top:70px;
     left: 460px;
     background-color:rgb(192, 192, 192);
@@ -48,12 +60,11 @@
     border:none;
     border-radius:10px;
     padding: 5px;
-    min-height: 30px;
-    min-width: 170px;
+    min-height: 70px;
+    min-width: 204px;
 }
 
 .button-jewelcave{
-	position: absolute;
     top:120px;
     left: 50px;
     background-color:rgb(192, 192, 192);
@@ -61,12 +72,12 @@
     border:none;
     border-radius:10px;
     padding: 5px;
-    min-height: 30px;
-    min-width: 170px;
+    min-height: 70px;
+    min-width: 204px;
+    margin: 10px 10px 0 0;
 }
 
 .button-cloud{
-	position: absolute;
     top:120px;
     left: 255px;
     background-color:rgb(192, 192, 192);
@@ -74,12 +85,12 @@
     border:none;
     border-radius:10px;
     padding: 5px;
-    min-height: 30px;
-    min-width: 170px;
+    min-height: 70px;
+    min-width: 204px;
+    margin: 0 10px 0 0;
 }
 
 .button-endroad{
-	position: absolute;
     top:120px;
     left: 460px;
     background-color:rgb(192, 192, 192);
@@ -87,12 +98,11 @@
     border:none;
     border-radius:10px;
     padding: 5px;
-    min-height: 30px;
-    min-width: 170px;
+    min-height: 70px;
+    min-width: 204px;
 }
 
 .button-back {
-	position: absolute;
     top:160px;
     left: 700px;
     background-color:rgb(192, 192, 192);

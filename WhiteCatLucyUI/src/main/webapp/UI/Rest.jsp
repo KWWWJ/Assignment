@@ -5,15 +5,23 @@
 <head>
 <link href="style/main.css" rel="stylesheet" type="text/css">
 <link href="style/display/rest.css" rel="stylesheet" type="text/css">
-<link href="style/button.css" rel="stylesheet" type="text/css">
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Rest</title>
 </head>
 <body>
-	<div class="display">
-		<div class="script">성향 변화 메세지</div>
-		<button type="button" class="button-script button-effect" onclick="location.href='./PlayerAction.jsp' ">next</button>
+	<div id="root">
+		<div class="display">
+			<div class="in-box">
+				<div class="script-box">
+					<h3 class="now" id="script">스크립트</h3>
+				</div>
+				<div id="addButton" class="butten-hover">
+					<img class="image" alt="발바닥이미지" src="image/whitefoot.png">
+				</div>
+			</div>
+		</div>
 	</div>
+	
 	<script type="text/javascript" src="./JSfile/rest.js"></script>
 </body>
 </html>

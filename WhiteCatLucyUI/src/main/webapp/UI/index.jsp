@@ -5,13 +5,15 @@
 <head>
 <link href="../style/title.css" rel="stylesheet" type="text/css">
 <meta charset="UTF-8">
-<title>title</title>
+<title>Title</title>
 </head>
 <body>
-	<div class="display-title">
-		<img class="titleImage" alt="타이틀" src="../image/roundTitle.png" style="width:750px; height:690px;">
+	<div id="root">
+		<div class="display-title">
+			<img class="title-image" alt="타이틀" src="../image/roundTitle.png" />
+		</div>
 		<div class="butten-hover" onclick="location.href='/WhiteCatLucyUI/intro'">
-				<img class="image" alt="발바닥이미지" src="../image/whitefoot.png" >
+			<img class="image" alt="발바닥이미지" src="../image/whitefoot.png" />
 		</div>
 	</div>
 </body>
