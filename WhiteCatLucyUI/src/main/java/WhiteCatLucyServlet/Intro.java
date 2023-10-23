@@ -22,11 +22,11 @@ import whiteCatLucy.script.SystemScript;
  */
 @WebServlet("/intro")
 public class Intro extends HttpServlet {
-       
-    /**
+
+	/**
 	 * 
 	 */
-	private static final long serialVersionUID = 2685444196136033448L;
+	private static final long serialVersionUID = 3944309989672555545L;
 
 	/**
      * @see HttpServlet#HttpServlet()
@@ -56,7 +56,7 @@ public class Intro extends HttpServlet {
 		session.setAttribute("test", "세션 타입 확인용");
 		session.setAttribute("list", test);
 		
-        RequestDispatcher dispatcher = request.getRequestDispatcher("/UI/Intro.jsp");
+        RequestDispatcher dispatcher = request.getRequestDispatcher("/UI/intro.jsp");
 
         dispatcher.forward(request, response);
 	}
