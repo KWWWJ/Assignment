@@ -17,6 +17,8 @@
 <meta charset="UTF-8">
 <title>Intro</title>
 <script type="text/javascript" >
+console.log(${list2})
+console.log(${test})
 	var script = [ ${nowTest} ]
 </script>
 </head>

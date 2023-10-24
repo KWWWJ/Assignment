@@ -17,87 +17,70 @@ import Script.script.ScriptInterface;
 
 
 public class TestList {
-	private ScriptInterface user1 = new ScriptBean();
+	private ScriptInterface script1 = new ScriptBean();
 	private ApplicationContext context = new AnnotationConfigApplicationContext(DAOFactory.class);
 	private ScriptDAO dao = context.getBean("scriptDAO", ScriptDAO.class); // 얘 기능 나눠서 그때그떄 생성해도 상관 없다.
 																				 // 일할떄는 두가지로 나눠 테스트용과 배포용을 만들어 배포에는 테이블 삭제 및 생성 기능을 제외한다.
 	@Before
 	public void initialize() {
-
-		try {
-
-			dao.create();
-			System.out.println("script 테이블 생성 성공");
-			
-		}catch(Exception e) {
-			System.out.println(e.getMessage());
-		}
-
-		user1.setName("intro");
-		user1.setScript("루시는 포근한 하얀 고양이 입니다.");
-		dao.add(user1);
-
+		
+		dao.delete();
+		
+		script1.setOrder(1);
+		script1.setWhere("intro");
+		script1.setScript("루시는 포근한 하얀 고양이 입니다.");
+		script1.setImg("/image/map/intro.png");
+		dao.add(script1);
+		System.out.println(script1.getId());
+		System.out.println(script1.getWhere());
 	}
 	
-	@After
-	public void dropTable() {
-
-		dao.upgradeDrop();
-		System.out.println("script 테이블 삭제 성공");
-
-	}
+	
 
 	@Test
 	public void add() {
 
-		ScriptBean user = new ScriptBean();
-		user.setName("intro");
-		user.setScript("루시는 빨간 소파에 몸을 푸욱 뉘었습니다..");
-		dao.add(user);
+		ScriptBean script = new ScriptBean();
+		script.setOrder(2);
+		script.setWhere("intro");
+		script.setScript("루시는 빨간 소파에 몸을 푸욱 뉘었습니다..");
+		script.setImg("/image/map/intro.png");
+		dao.add(script);
 		System.out.println("추가 성공 addAndGet");
 
 	}
 
 	@Test
 	public void get() {
-
-		ScriptInterface createdUser = dao.get(user1.getId());
-		assertThat(createdUser.getName(), is(user1.getName()));
-		assertThat(createdUser.getScript(), is(user1.getScript()));
-		
+		System.out.println(script1.getId());
+		ScriptInterface createdScript = dao.get(script1.getId());
+		assertThat(createdScript.getId(), is(script1.getId()));
+		assertThat(createdScript.getOrder(), is(script1.getOrder()));
+		assertThat(createdScript.getWhere(), is(script1.getWhere()));
+		assertThat(createdScript.getScript(), is(script1.getScript()));
+		assertThat(createdScript.getImg(), is(script1.getImg()));
 
 	}
 
 	@Test
 	public void dropAndCreate() {
 
-		ScriptBean user = new ScriptBean();
-		user.setName("intro");
-		user.setScript("몸이 노곤하게 가라앉는 느낌에 루시는 어쩔 수 없이 무거운 눈꺼풀을 닫았습니다.");
-		dao.add(user);
+		ScriptBean script = new ScriptBean();
+		script.setOrder(3);
+		script.setWhere("intro");
+		script.setScript("몸이 노곤하게 가라앉는 느낌에 루시는 어쩔 수 없이 무거운 눈꺼풀을 닫았습니다.");
+		script.setImg("/image/map/intro.png");
+		dao.add(script);
 		System.out.println("추가 성공 addAndGet");
 
-		ScriptInterface createdUser = dao.get(user.getId());
-		assertThat(createdUser.getName(), is(user.getName()));
-		assertThat(createdUser.getScript(), is(user.getScript()));
+		ScriptInterface createdUser = dao.get(script.getId());
+		assertThat(createdUser.getWhere(), is(script.getWhere()));
+		assertThat(createdUser.getScript(), is(script.getScript()));
 	
 
 	}
 	
-	@Test(expected=DuplicateKeyException.class)
-	public void duplicate() {
-		
-		ScriptBean user2 = new ScriptBean();
-		user2.setName("asdf");
-		user2.setScript("asdf");
-		dao.add(user2);
-		
-		ScriptBean user3 = new ScriptBean();
-		user3.setName("asdf");
-		user3.setScript("asdf");
-		dao.add(user3);
-		
-	}
+
 
 
 }

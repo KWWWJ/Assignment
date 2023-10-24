@@ -44,7 +44,7 @@ public class Tutorial extends HttpServlet {
 		
 		request.setAttribute("box", nowScript);
 		
-		RequestDispatcher dispatcher = request.getRequestDispatcher("/UI/Tutorial.jsp");
+		RequestDispatcher dispatcher = request.getRequestDispatcher("/UI/tutorial.jsp");
 
         dispatcher.forward(request, response);
 	}

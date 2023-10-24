@@ -35,44 +35,49 @@ public class ScriptDAO {
 	public void create() throws Exception{
 
 		jdbcTemplate.execute("create table script (\r\n"
-				+" id number generated as identity primary key, \r\n"
-				+" name varchar2(20), \r\n"
-				+" script varchar2(300) not null unique \r\n"
+				+" \"id\" number generated as identity primary key,\r\n"
+				+" \"order\" number(2) not null,\r\n"
+				+" \"where\" varchar2(20),\r\n"
+				+" \"script\" varchar2(300) not null,\r\n"
+				+" \"img\" varchar2(60) not null, \r\n"
 				+" )");
 
 	}
 	
-	public void add(ScriptInterface user) {
+	public void add(ScriptInterface script) {
 		
 		jdbcTemplate.update(								 
-		"insert into script ( name, script ) values ( ?, ?)",
-		user.getName(),
-		user.getScript());
+		"insert into script ( \"order\" ,\"where\", \"script\", \"img\" ) values ( ?, ?, ?, ?)",
+		script.getOrder(),
+		script.getWhere(),
+		script.getScript(),
+		script.getImg());
 
 	}
 
-	public void delete(ScriptInterface user) {
+	public void delete() {
 		jdbcTemplate.update(
-		"delete from script where id=?",
-		user.getId());
+		"delete from script");
 	}
 
 	public ScriptInterface get(int id) {
 
 		return jdbcTemplate.queryForObject(
-			"select * from script where user_id=?", 
+			"select * from script where \"id\"=?", 
 			new Object[] {id},
 			new RowMapper<ScriptBean>() {
 
 			@Override 
 			public ScriptBean mapRow(ResultSet rs, int rowNum) throws SQLException {
 				// TODO Auto-generated method stub
-				ScriptBean user= new ScriptBean();
-				user.setId(rs.getInt("id"));
-				user.setName(rs.getString("name"));
-				user.setScript(rs.getString("script"));
+				ScriptBean script= new ScriptBean();
+				script.setId(rs.getInt("\"id\""));
+				script.setOrder(rs.getInt("\"order\""));
+				script.setWhere(rs.getString("\"where\""));
+				script.setScript(rs.getString("\"script\""));
+				script.setImg(rs.getString("\"img\""));
 
-				return user;
+				return script;
 			}
 		});
 	}

@@ -53,8 +53,10 @@ public class Intro extends HttpServlet {
 		test.add("확인용");
 		
 		session.setAttribute("box", script);
-		session.setAttribute("test", "세션 타입 확인용");
+		session.setAttribute("test", "'세션 타입 확인용'");
 		session.setAttribute("list", test);
+		
+		request.setAttribute("test", intro.script);
 		
         RequestDispatcher dispatcher = request.getRequestDispatcher("/UI/intro.jsp");
 
