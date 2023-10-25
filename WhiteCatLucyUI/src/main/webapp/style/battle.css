@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.display{
+	background-image: url(../../image/battle/alley/Standing-alley-monster.png);
+	max-width: 1000px;
+	height: 700px;
+	margin: 0 auto;
+	padding: 50px 150px;
+	padding-top: 450px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}

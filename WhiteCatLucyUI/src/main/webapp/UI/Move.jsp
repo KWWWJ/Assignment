@@ -10,7 +10,7 @@
 </head>
 <body>
 	<div id="root">
-		<div id="chage" class="display">
+		<div id="change" class="display">
 			<div class="in-box">
 				<div id="new" class="script-box">
 					<div id="this">
