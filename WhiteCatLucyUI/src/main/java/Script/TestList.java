@@ -43,7 +43,7 @@ public class TestList {
 		ScriptBean script = new ScriptBean();
 		script.setOrder(2);
 		script.setWhere("intro");
-		script.setScript("루시는 빨간 소파에 몸을 푸욱 뉘었습니다..");
+		script.setScript("루시는 빨간 소파에 몸을 푸욱 뉘었습니다.");
 		script.setImg("/image/map/intro.png");
 		dao.add(script);
 		System.out.println("추가 성공 addAndGet");

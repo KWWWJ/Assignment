@@ -16,8 +16,8 @@
 					<h3 class="now" id="script">스크립트</h3>
 				</div>
 				<div id="addButton" class="butten-hover">
-						<img class="image" alt="발바닥이미지" src="image/whitefoot.png">
-					</div>
+					<img class="image" alt="발바닥이미지" src="image/whitefoot.png">
+				</div>
 			</div>
 		</div>
 	</div>

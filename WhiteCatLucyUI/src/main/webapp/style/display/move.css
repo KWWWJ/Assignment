@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .display{
-	
+	background-color: wheat;
 	background-image: url(../../image/battle/tutorialMonster/battleStanding-basic.png);
 	max-width: 1000px;
 	height: 700px;
